@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
-
+# 日付の取得
 
 import datetime
+
 if __name__ == "__main__":
     
     today        =    datetime.date.today()
     todaydetail  =    datetime.datetime.today()
+ 
     
     # 今日の日付
     print("-----------------------------------")
@@ -29,7 +31,4 @@ if __name__ == "__main__":
     print("-----------------------------------")
     print(today.isoformat())
     print(todaydetail.strftime("%Y/%m/%d %H:%M:%S"))
-    
-    
-    
     
