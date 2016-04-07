@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+# 値の追加
 
 test_list_1 = ["Hello"]
 print(test_list_1)
