@@ -14,6 +14,6 @@ for i in test_list_1:
 print(range(0,6))
 
 
-#for i in range(0, 5):
-#   print("%s回目のループだよ！" % i)
+for i in range(0, 5):
+   print("%s回目のループだよ！" % i)
     
