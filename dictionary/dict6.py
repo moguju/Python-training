@@ -7,10 +7,10 @@ print(test_dict_1)
 
 print('=============================')
 
-print(test_dict_1.has_key('YEAR'))
-print(test_dict_1.has_key('MOGU'))
+# print(test_dict_1.has_key('YEAR'))
+# print(test_dict_1.has_key('MOGU'))
+# has_keyはpython3から使えなくなった
 
-print('YEAR') in test_dict_1
-# print('YEAR' in test_dict_1)でもいけた
-print('MOGU') in test_dict_1
+print('YEAR' in test_dict_1)
+print('MOGU' in test_dict_1)
 
